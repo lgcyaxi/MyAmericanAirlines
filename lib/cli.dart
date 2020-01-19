@@ -4,8 +4,8 @@ import 'dart:math';
 
 import 'package:http/http.dart' as http;
 
+
 class Flight {
-  //需要添加额外的数据 来完成整个CLASS 获取的变量
   final String model;
   final int first;
   final int main;
@@ -129,6 +129,9 @@ double roundDouble(double value, int places){
 int calculate() {
   return 6 * 7 ~/ 2;
 }
+
+
+
 
 //计算到机场距离 
 ToAirport({String dept = 'University of Arzina',String dest = 'Tucson International Airport'}) async{
