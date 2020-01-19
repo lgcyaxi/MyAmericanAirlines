@@ -23,11 +23,19 @@ dependencies:
   location: ^2.3.5
   cupertino_icons: ^0.1.2
 
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   pedantic: ^1.8.0
   test: ^1.6.0
+  flutter_launcher_icons: ^0.7.3
+
+flutter_icons:
+  image_path:"images/aa.png"
+  android:true
+  ios:true
 
 
 # For information on the generic Dart part of this file, see the
